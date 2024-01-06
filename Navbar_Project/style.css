@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    background-color: black;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    display: flex;
+}
+
+nav li {
+    padding: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+nav li:hover{
+    background-color: rgb(31, 29, 29);
+}
+
+
+.article {   
+    margin: 5%;
+}
+
+.article h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.article p {
+    text-align: justify;
+    font-size: 15px;
+}
